@@ -6,8 +6,8 @@ import BeforeLogin from "./beforeLogin/BeforeLogin";
 import AfterLogin from "./afterLogin/AfterLogin";
 import { ctx } from "./myContext";
 
-const baseUrl = "http://localhost:2020/";
-
+//const baseUrl = "http://localhost:2020/";
+const baseUrl = "https://node1993.herokuapp.com/";
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   useEffect(() => {
