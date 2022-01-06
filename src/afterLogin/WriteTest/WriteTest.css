@@ -1,0 +1,6 @@
+.time-left {
+  position: fixed;
+  right: 20px;
+  top: 10px;
+  color: red;
+}
